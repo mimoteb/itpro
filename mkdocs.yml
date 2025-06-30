@@ -1,0 +1,21 @@
+site_name: itpro
+docs_dir: docs
+theme:
+  palette:
+    primary: indigo
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  name: material
+  features:
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - content.code.copy
+  extra:
+    copyright:
+      text: "Author Solomon Samuel"
+  plugins:
+   - tags
